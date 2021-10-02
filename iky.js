@@ -889,14 +889,14 @@ const menu =`\`\`\`YUI Bot Botz\`\`\`
 
 *BOT STATS*
 ❒͡ *Owner Bot = ↓↓↓*
-*http://wa.me/6285608625102*
+*http://wa.me/62822292579301*
 *its Contact my owner*
 ❒͡ *Prefix : [ MULTI MODE ]*
 ❒͡ *Stats : [ PUBLIC ]*
 ❒͡ *Link Grup : ↓↓↓*
-*››› https://bit.ly/37Ymvib ‹‹‹*
+*››› GK ADA ‹‹‹*
 
-──「 *YUI BOT* 」──
+──「 *LXXVY-BOTZ* 」──
 *You Info -*
 
 𒍮 *Name : ${pushname}*
@@ -904,7 +904,7 @@ const menu =`\`\`\`YUI Bot Botz\`\`\`
 
 𒍮 *Level : ${Levelnye}*
 𒍮 *XP : ${Xpluu} / ${requiredXplu}*
-𒍮 *Join ››› https://bit.ly/37Ymvib*
+𒍮 *Join ››› *
 ───「 *INFORMATION* 」───
 
 Hit Total Yui ›› ${totalhit}*
@@ -919,7 +919,7 @@ Perilakukan Bot Dengan Baik - Jangan Spam Bot
 
 const Faxx =`*── 「 PRICE LIST 」 ──*
 
-*WELCOME TO YUI BOT INDONESIA*
+*WELCOME TO LXXXVY-BOTZ*
 
 
 Hai Kak @${sender.split('@')[0]} 🙌🏻 ${ucapanWaktu} Mau Sewabot Ya? berikut Harga Sewabot
@@ -934,7 +934,7 @@ IDR + 40.000,00 -  *PERMANEN*
 • Gopay • Dana • Pulsa
 
 Kontak *Admin* : 
-• ramaagung050307@gmail.com
+• febryanusjhy@gmail.com
 • @${ownerr}
 
 Spesial Thanks @${ownerr}`
@@ -1037,7 +1037,7 @@ buttons = [{buttonId:`${prefix}allmenu`,buttonText:{displayText:'🌹COMMAND🌹
 
                buttonsMessage = {
                contentText: `${Fax1}`,
-               footerText: '𝑪𝒓𝒆𝒂𝒕𝒐𝒓 : Leonz 𝑮𝒂𝒏𝒛', imageMessage: imageMsg,
+               footerText: '𝑪𝒓𝒆𝒂𝒕𝒐𝒓 : Febryanus Tambing', imageMessage: imageMsg,
                buttons: buttons,
                headerType: 4
 }
@@ -1070,7 +1070,7 @@ Pprofil = await ikyy.getProfilePicture(`${sender.split('@')[0]}@s.whatsapp.net`)
               
                buttonsMessage = {
                contentText: `${menu}`,
-               footerText: '🍂𝑰`𝑻𝒔 𝑴𝒆 Leonz🍂\n𝑪𝒓𝒆𝒂𝒕𝒐𝒓 : Leonz 𝑮𝒂𝒏𝒛', imageMessage: imageMsg,
+               footerText: '🍂𝑰`𝑻𝒔 𝑴𝒆 Febryid🍂\n𝑪𝒓𝒆𝒂𝒕𝒐𝒓 : Febryanus Tambing', imageMessage: imageMsg,
                buttons: buttons,
                headerType: 4
 }
@@ -1129,8 +1129,8 @@ if (!isRegister) return reply(mess.regits)
 │wa.me/${senderr.split('@')[0]}*
 │❒͡ *Level : ${Levelnye}*
 │❒͡ *XP : ${Xpluu} / ${requiredXplu}*
-│❒͡ *Join ››› https://chat.whatsapp.com/FmItqGoeeArFkgFwc5yJxL*
-╰───「 *YUI BOT* 」──
+│❒͡ *Join ››› *
+╰───「 *LXXVY-BOTZ* 」──
 
 *INFORMATION*
 • 
@@ -1166,7 +1166,7 @@ case 'collab':
 for (let i of ownerNumbers) {
 const vname = ikyy.contacts[i] != undefined ? ikyy.contacts[i].vname || ikyy.contacts[i].notify : undefined
 ini_list.push({
-"displayName": 'Yui botz',
+"displayName": 'LXXVY-BOTZ',
 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${ikyy.user.name}`}\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 })
 }
